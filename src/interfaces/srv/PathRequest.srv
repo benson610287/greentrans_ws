@@ -1,0 +1,43 @@
+# Request
+string task_json
+---
+# Response
+string result_json
+
+# task_json
+# {
+#     "3369577": {              # task id
+#         "type": "delivery",
+#         "robot_id": null,
+#         "pick": 1,
+#         "place": 2,
+#     },
+#     "4720263": {
+#         "type": "delivery",
+#         "robot_id": null,
+#         "pick": 1,
+#         "place": 2,
+#     }
+# }
+
+# result_json
+# {
+#     "3369577": {
+#         "type": "delivery",         # (Str)
+#         "robot_id": 0,              # (Int)
+#         "path": [1, 3, 5, 1],       # (List[Int])
+#         "pick": 3,                  # (Int)
+#         "place": 5,                 # (Int)
+#         "success": true,            # (Bool)
+#         "message": "Error message"  # (Str)
+#     },
+#     "4720263": {
+#         "type": "delivery",
+#         "robot_id": 0,
+#         "path": [1, 3, 5, 1],
+#         "pick": 3,
+#         "place": 5,
+#         "success": true,
+#         "message": "Error message"
+#     }
+# }

@@ -1,0 +1,40 @@
+{
+    "robot": {
+        "0": {
+            "pos": [
+                0.0,
+                0.0
+            ],
+            "state": "free",
+            "node": 0
+        },
+        "1": {
+            "pos": [
+                1.0,
+                1.0
+            ],
+            "state": "free",
+            "node": 0
+        }
+    },
+    "task": {
+        "0": {
+            "task_type": "deliver",
+            "pickup_node": 6,
+            "end_node": 3,
+            "robot_id": null
+        },
+        "1": {
+            "task_type": "deliver",
+            "pickup_node": 7,
+            "end_node": 3,
+            "robot_id": null
+        },
+        "2": {
+            "task_type": "deliver",
+            "pickup_node": 4,
+            "end_node": 3,
+            "robot_id": null
+        }
+    }
+}

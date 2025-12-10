@@ -1,0 +1,13 @@
+int32 tag_id
+---
+bool success
+string message
+string file_path
+# Pose (base_link -> tag)
+float64 x
+float64 y
+float64 z
+float64 qx
+float64 qy
+float64 qz
+float64 qw

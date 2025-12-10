@@ -1,0 +1,151 @@
+{
+  "node": {
+    "0": {
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "neighbors": [
+        1,
+        5
+      ]
+    },
+    "1": {
+      "pos": [
+        2.0,
+        0.0
+      ],
+      "neighbors": [
+        0,
+        2,
+        4
+      ]
+    },
+    "2": {
+      "pos": [
+        4.0,
+        0.0
+      ],
+      "neighbors": [
+        1,
+        3
+      ]
+    },
+    "3": {
+      "pos": [
+        4.0,
+        2.0
+      ],
+      "neighbors": [
+        2,
+        7
+      ]
+    },
+    "4": {
+      "pos": [
+        2.0,
+        2.0
+      ],
+      "neighbors": [
+        1,
+        6,
+        7
+      ]
+    },
+    "5": {
+      "pos": [
+        0.0,
+        2.0
+      ],
+      "neighbors": [
+        0,
+        6
+      ]
+    },
+    "6": {
+      "pos": [
+        1.0,
+        2.0
+      ],
+      "neighbors": [
+        4,
+        5
+      ]
+    },
+    "7": {
+      "pos": [
+        3.0,
+        2.0
+      ],
+      "neighbors": [
+        3,
+        4
+      ]
+    }
+  },
+  "edge": {
+    "0": {
+      "connector": [
+        0,
+        1
+      ],
+      "road_type": "wide"
+    },
+    "1": {
+      "connector": [
+        0,
+        5
+      ],
+      "road_type": "wide"
+    },
+    "2": {
+      "connector": [
+        1,
+        2
+      ],
+      "road_type": "wide"
+    },
+    "3": {
+      "connector": [
+        1,
+        4
+      ],
+      "road_type": "wide"
+    },
+    "4": {
+      "connector": [
+        2,
+        3
+      ],
+      "road_type": "wide"
+    },
+    "5": {
+      "connector": [
+        3,
+        7
+      ],
+      "road_type": "wide"
+    },
+    "6": {
+      "connector": [
+        4,
+        6
+      ],
+      "road_type": "wide"
+    },
+    "7": {
+      "connector": [
+        4,
+        7
+      ],
+      "road_type": "wide"
+    },
+    "8": {
+      "connector": [
+        5,
+        6
+      ],
+      "road_type": "wide"
+    }
+  }
+}

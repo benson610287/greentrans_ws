@@ -1,0 +1,6 @@
+# Request
+bool system_switch
+---
+# Response
+bool success
+string message

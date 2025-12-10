@@ -1,0 +1,27 @@
+# =============== Request ===============
+int32 NAVIGATION=0
+int32 CHARGE=1
+int32 CHECK_ONLINE=2
+
+int32 task_type
+geometry_msgs/PoseArray task_path
+
+
+---
+# =============== Result ===============
+int32 ONLINE=0
+int32 SUCCESS=1
+int32 ERROR=2
+int32 CANCEL=3
+
+int32 task_status
+string status_message
+
+
+---
+# =============== Feedback ===============
+bool NORMAL=1
+bool ABNORMAL=0
+
+bool task_result
+string result_message

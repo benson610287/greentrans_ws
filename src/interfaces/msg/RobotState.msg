@@ -3,15 +3,11 @@ string robot_info
 
 # {
 #  "1": {
-#    "position": {            # in meters (Float32)
+#    "Pose2D": {            # in meters (Float32)
 #      "x": 0, 
 #      "y": 0,
-#      "z": 0
-#    },
-#    "orientation": {         # in degrees (Float32)
-#      "rx": 0,
-#      "ry": 0,
-#      "rz": 0
+#      "z": 0,
+#      "theta": 0.0
 #    },
 #    "topo":{
 #      "previous_node": 1,    # previous node id (Int)
